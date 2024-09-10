@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4517846d-a675-4e00-b556-c84729e7a475" name="dbs.lokid.xyz">
+        <fileTransfer rootFolder="/var/www/go/proxy" accessType="SFTP" host="dbs.lokid.xyz" port="22" sshConfigId="8ea8201d-8ac5-45fe-9eab-15affd78ad81" sshConfig="root@dbs.lokid.xyz:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseSudo="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
