@@ -23,7 +23,7 @@ func main() {
 		log.Fatal("Lỗi khi tạo SOCKS5 server:", err)
 	}
 
-	log.Println("Máy chủ proxy SOCKS5 đang chạy trên cổng 1111...")
+	log.Println("Máy chủ proxy SOCKS5 đang chạy trên cổng 1111... giao thực tcp")
 	err = server.ListenAndServe("tcp", "0.0.0.0:1111")
 	if err != nil {
 		log.Fatal("Lỗi khi chạy SOCKS5 server:", err)
